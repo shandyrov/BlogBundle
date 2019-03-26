@@ -18,7 +18,7 @@ class GeneralController extends AbstractController
 
     public function index()
     {
-        return $this->render('@Carousel/templates/'.$this->$emplateManager->getCurrentBackend().'/index.html.twig');
+        return $this->render('@BlogBundle/templates/'.$this->$emplateManager->getCurrentBackend().'/index.html.twig');
     }
 
 }
