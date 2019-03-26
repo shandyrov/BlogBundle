@@ -1,13 +1,11 @@
 <?php
 namespace Sputnik\BlogBundle\DependencyInjection;
 
-
-use App\Service\YamlLoader;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\Loader;
-
+use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 
 class BlogExtension extends Extension
 {
