@@ -16,7 +16,7 @@ class ExtraLoader extends Loader
         }
         
         $routes = new RouteCollection();
-        $route =$this->import('@CarouselBundle/Resources/config/routes.yaml', 'yaml');
+        $route =$this->import('@BlogBundle/Resources/config/routes.yaml', 'yaml');
         $routes->addCollection($route);
         $this->loaded = true;
 
