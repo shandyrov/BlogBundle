@@ -1,0 +1,3 @@
+admin_plugins_blog_index:
+  path: /admin/plugins/blog
+  controller: Sputnik\BlogBundle\Controller\Backend\GeneralController::index
