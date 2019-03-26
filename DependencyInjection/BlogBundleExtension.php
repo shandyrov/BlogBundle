@@ -9,7 +9,7 @@ use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\Loader;
 
 
-class SputnikBlogBundleExtension extends Extension
+class BlogBundleExtension extends Extension
 {
     public function getAlias()
     {
