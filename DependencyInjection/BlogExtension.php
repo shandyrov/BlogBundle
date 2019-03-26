@@ -9,7 +9,7 @@ use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\Loader;
 
 
-class BlogBundleExtension extends Extension
+class BlogExtension extends Extension
 {
     public function getAlias()
     {
