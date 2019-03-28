@@ -3,7 +3,7 @@
     "description" : "Blog bundle",
     "type" : "symfony-bundle",
     "authors" : [{
-        "name" : "blog",
+        "name" : "shandyrov askar",
         "email" : "shandyrov@gmail.com"
     }],
     "keywords" : [
