@@ -8,9 +8,6 @@
         <defaults autowire="true" autoconfigure="true" public="false" />
         <!-- Load services from whatever directories you want (you can update this!) -->
         <prototype namespace="Sputnik\BlogBundle\" resource="../../../BlogBundle/*" exclude="../../../BlogBundle/{Entity,Repository}" />
-    
-        <service id="sputnik_blog.routing_loader" class="Sputnik\BlogBundle\Routing\ExtraLoader">
-            <tag name="routing.loader"/>
-        </service> 
+        
     </services>
 </container>
