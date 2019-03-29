@@ -1,0 +1,14 @@
+bundle_config:
+  type: plugin
+  locale:
+        en:
+            name: Blog
+            description: Blog Description
+        ru:
+            name: Блог
+            description: Описание карусели
+        kk:
+            name: Блог
+            description: Карусель сипаттамасы
+
+  default_path: admin_plugins_blog_index
