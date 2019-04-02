@@ -2,6 +2,7 @@
     "name" : "shandyrov/blogbundle",
     "description" : "Blog bundle",
     "type" : "symfony-bundle",
+    "version" : "0.1",
     "authors" : [{
         "name" : "shandyrov askar",
         "email" : "shandyrov@gmail.com"
