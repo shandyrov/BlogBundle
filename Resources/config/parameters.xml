@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="blog.enabled">true</parameter>
+        <parameter key="blog.type">plugin</parameter>
+        <parameter key="blog.locale" type="collection">
+            <parameter key="en" type="collection">
+                <parameter key="name">Blog</parameter>
+                <parameter key="description">Blog Description</parameter>
+            </parameter>
+            <parameter key="ru" type="collection">
+                <parameter key="name">Блог</parameter>
+                <parameter key="description">Описание блога</parameter>
+            </parameter>
+            <parameter key="kk" type="collection">
+                <parameter key="name">Блог</parameter>
+                <parameter key="description">Блог сипаттамасы</parameter>
+            </parameter>
+        </parameter>
+        <parameter key="blog.default_path" type="string">admin_plugins_blog_index</parameter>
+
+        <parameter key="blog.icon" type="collection">
+            <parameter key="material_icon" type="string">view_module</parameter>
+        </parameter>
+    </parameters>
+</container>
